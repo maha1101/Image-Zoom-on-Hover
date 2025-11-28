@@ -123,6 +123,10 @@ body {
 #closeBtn:hover {
     color: #ff4444;
 }
+body {
+    background: red;
+}
+
 
 #modalCaption {
     margin-top: 15px;

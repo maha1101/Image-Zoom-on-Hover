@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Hover Gallery</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Premium Hover Gallery</h1>
+        <p>Hover to zoom • Click to preview</p>
+        <p class="note">Scroll down to preview the images</p>
+    </header>
+
+    <div class="gallery">
+
+        <div class="img-card" data-title="Mountain" data-src="https://picsum.photos/id/1011/1600/1000">
+            <img src="https://picsum.photos/id/1011/350/250" alt="Mountain">
+        </div>
+
+        <div class="img-card" data-title="Dog" data-src="https://picsum.photos/id/1025/1600/1000">
+            <img src="https://picsum.photos/id/1025/350/250" alt="Dog">
+        </div>
+
+        <div class="img-card" data-title="Beach" data-src="https://picsum.photos/id/1035/1600/1000">
+            <img src="https://picsum.photos/id/1035/350/250" alt="Beach">
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-box">
+            <span id="closeBtn">&times;</span>
+            <img id="modalImg">
+            <h2 id="modalCaption"></h2>
+        </div>
+    </div>
+
+<script src="index2.js"></script>
+</body>
+</html>
